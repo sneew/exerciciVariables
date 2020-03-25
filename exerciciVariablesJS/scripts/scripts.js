@@ -15,8 +15,9 @@ function imprimir(){
 
     //fase 2
     document.write("FASE 2" + "</br>");
-    const YEAR_BASE = 1948;
-	var leapYear = 0;
+    //const YEAR_BASE = 1948;
+    var YEAR_BASE = 1948;
+    var leapYear = 0;
 		
     for (var i = YEAR_BASE; i < year; i++) {
         if(((i%400) == 0) || ((i%4) == 0) && (i%100 != 0)) {
