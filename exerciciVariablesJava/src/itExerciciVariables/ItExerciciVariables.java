@@ -18,8 +18,8 @@ public class ItExerciciVariables {
 		
 		//fase 2
 		System.out.println("\nFase 2:");
-		final int YEAR_BASE = 1948; //fase2
-		//int YEAR_BASE = 1948; //fase3
+		//final int YEAR_BASE = 1948; //fase2
+		int YEAR_BASE = 1948; //fase3
 		int leapYear = 0;
 		
 		for (int i = YEAR_BASE; i < year; i++) {
